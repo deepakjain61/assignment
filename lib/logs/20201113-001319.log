@@ -1,0 +1,77 @@
+root - INFO - Running the get query https://api.ratesapi.io/api/latest with params {'symbols': 'GBP', 'base': 'USD'}
+root - INFO - 
+-----------Request----------->
+GET https://api.ratesapi.io/api/latest?symbols=GBP&base=USD
+
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+Accept: */*
+User-Agent: python-requests/2.25.0
+Content-Type: application/json
+
+None
+
+root - INFO - 
+<-----------Response-----------
+Status code:200
+
+Date: Thu, 12 Nov 2020 18:43:19 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=dd4fa7a5db37219d0c26b36ec064527741605206599; expires=Sat, 12-Dec-20 18:43:19 GMT; path=/; domain=.ratesapi.io; HttpOnly; SameSite=Lax
+Access-Control-Allow-Methods: GET
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+Cache-Control: max-age=14400
+CF-Cache-Status: HIT
+Age: 691
+cf-request-id: 065f5dfffd00001904b5198000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=5xbNo%2F2LqUPBpAeUmDa8fIKeC7bXU0HVNaRYuVGVQr23rHH4GyjJKu4Wh6eOj%2BvHd43u%2FcRpenn0syCU9SMBeawgLzhOocxwzhPcEiIm5D8%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"report_to":"cf-nel","max_age":604800}
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 5f1265dffb0c1904-SIN
+Content-Encoding: gzip
+
+{"base":"USD","rates":{"GBP":0.7613009923},"date":"2020-11-12"}
+
+root - INFO - Running the get query https://api.ratesapi.io/api/2010-01-12 with params {'symbols': 'GBP', 'base': 'USD'}
+root - INFO - 
+-----------Request----------->
+GET https://api.ratesapi.io/api/2010-01-12?symbols=GBP&base=USD
+
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+Accept: */*
+User-Agent: python-requests/2.25.0
+Content-Type: application/json
+
+None
+
+root - INFO - 
+<-----------Response-----------
+Status code:200
+
+Date: Thu, 12 Nov 2020 18:43:20 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=da61c4230a9a84d4f112be5eb4a12df6b1605206599; expires=Sat, 12-Dec-20 18:43:19 GMT; path=/; domain=.ratesapi.io; HttpOnly; SameSite=Lax
+Access-Control-Allow-Methods: GET
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+Cache-Control: max-age=14400
+CF-Cache-Status: MISS
+cf-request-id: 065f5e0101000017af4eb8f000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=13qtSjEEODSRzx2T%2FWl0yeQUmzbPOddAe3YWT2iXWF308XbFtJRMbJj2jSirQRGk83zQKit4DjtppjxGeXElRK%2F3vHZolmKbqosQ8nl%2FFRM%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"report_to":"cf-nel","max_age":604800}
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 5f1265e19b7417af-SIN
+Content-Encoding: gzip
+
+{"base":"USD","rates":{"GBP":0.6195704717},"date":"2010-01-12"}
+

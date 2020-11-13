@@ -1,0 +1,26 @@
+The framework is written to test the public apis: https://ratesapi.io/documentation/
+The requirements.txt file mentions the packages that are to installed for running the tests.
+
+There are a number pf packages and modules written which are explained below:
+
+1. rest_client
+
+This package has the module client and logger.
+
+Client is responsible for creating the connection object with the product rest server.
+It has GET/POST/PUT methods defined.
+
+Logger is responsible for creating the logger object that would be utilised by the test framework to log the
+information.
+
+2. lib
+
+This has the library function which would be used by the test functions.
+rates module is responsible for the methods that would communicate with the client and will be utilised by the test.
+
+3. testcases
+
+This has the tests that are to be run using pytest module. suite1 is one such test suite that consists of 14 test cases.
+This suite also consist of the config which act as the test data for these tests.
+There is a logs directory as well which has the logs for all the last runs.
+

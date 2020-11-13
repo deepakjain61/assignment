@@ -1,0 +1,108 @@
+root - INFO - Running the get query https://api.ratesapi.io/api/latest with params {'symbols': u'GsBP', 'base': u'USD'}
+root - INFO - 
+-----------Request----------->
+GET https://api.ratesapi.io/api/latest?symbols=GsBP&base=USD
+
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+Accept: */*
+User-Agent: python-requests/2.25.0
+Content-Type: application/json
+
+None
+
+root - INFO - 
+<-----------Response-----------
+Status code:400
+
+Date: Thu, 12 Nov 2020 20:18:22 GMT
+Content-Type: application/json
+Content-Length: 59
+Connection: keep-alive
+Set-Cookie: __cfduid=d8b46b262699b99e7e0278d3213bbf0011605212302; expires=Sat, 12-Dec-20 20:18:22 GMT; path=/; domain=.ratesapi.io; HttpOnly; SameSite=Lax
+Access-Control-Allow-Methods: GET
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CF-Cache-Status: BYPASS
+cf-request-id: 065fb505210000374fc838d000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=6NetSYgwHnbk%2F4CU4Y52VyCnu3T6lyvkwdj3ia8XQa%2B%2Bz5kuKvgy44F8roXc9QQ7F0Y3as6079HF32Pv4Vu2vBSSDwRuikiWZKNfkgImYyI%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"report_to":"cf-nel","max_age":604800}
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 5f12f11b6f2b374f-MXP
+
+{"error":"Symbols 'GsBP' are invalid for date 2020-11-12."}
+
+root - INFO - Running the get query https://api.ratesapi.io/api/latest with params {'symbols': u'UwrSD', 'base': u'EUR'}
+root - INFO - 
+-----------Request----------->
+GET https://api.ratesapi.io/api/latest?symbols=UwrSD&base=EUR
+
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+Accept: */*
+User-Agent: python-requests/2.25.0
+Content-Type: application/json
+
+None
+
+root - INFO - 
+<-----------Response-----------
+Status code:400
+
+Date: Thu, 12 Nov 2020 20:18:24 GMT
+Content-Type: application/json
+Content-Length: 60
+Connection: keep-alive
+Set-Cookie: __cfduid=d65af65ac74000c3bcae4437a3e8b03761605212303; expires=Sat, 12-Dec-20 20:18:23 GMT; path=/; domain=.ratesapi.io; HttpOnly; SameSite=Lax
+Access-Control-Allow-Methods: GET
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CF-Cache-Status: BYPASS
+cf-request-id: 065fb507f900003764128ef000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=3FZ24FRGOfe0ue%2BuMt5%2B%2FHogudO%2Fo2ns7h6%2B11ttAAshMO3e%2FycRjlM65iJg4lTQOtiI20uJ8bIaY9%2BMLyErdGN0WM2wNfVQWVeqIYrYveU%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"report_to":"cf-nel","max_age":604800}
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 5f12f11ffcc33764-MXP
+
+{"error":"Symbols 'UwrSD' are invalid for date 2020-11-12."}
+
+root - INFO - Running the get query https://api.ratesapi.io/api/latest with params {'symbols': u'IwLS', 'base': u'EUR'}
+root - INFO - 
+-----------Request----------->
+GET https://api.ratesapi.io/api/latest?symbols=IwLS&base=EUR
+
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+Accept: */*
+User-Agent: python-requests/2.25.0
+Content-Type: application/json
+
+None
+
+root - INFO - 
+<-----------Response-----------
+Status code:400
+
+Date: Thu, 12 Nov 2020 20:18:25 GMT
+Content-Type: application/json
+Content-Length: 59
+Connection: keep-alive
+Set-Cookie: __cfduid=dd2d5cccb56de6a67592b6975c98f4b4f1605212304; expires=Sat, 12-Dec-20 20:18:24 GMT; path=/; domain=.ratesapi.io; HttpOnly; SameSite=Lax
+Access-Control-Allow-Methods: GET
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CF-Cache-Status: BYPASS
+cf-request-id: 065fb50dff0000e938b7284000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=6YqjQf0ugIhwI1eEkh4%2BWx2SpYlrjEcfFVAvlhPqXXqIFQu146It7SiaT%2BXT30%2FcQUfnGKYDR0a%2Fy1tFE3JbBqNSH4VdDZQnipgScXy8mJI%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"report_to":"cf-nel","max_age":604800}
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 5f12f129982ce938-MRS
+
+{"error":"Symbols 'IwLS' are invalid for date 2020-11-12."}
+

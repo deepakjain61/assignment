@@ -1,0 +1,108 @@
+root - INFO - Running the get query https://api.ratesapi.io/api/latest with params {'symbols': u'GsBP', 'base': u'USD'}
+root - INFO - 
+-----------Request----------->
+GET https://api.ratesapi.io/api/latest?symbols=GsBP&base=USD
+
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+Accept: */*
+User-Agent: python-requests/2.25.0
+Content-Type: application/json
+
+None
+
+root - INFO - 
+<-----------Response-----------
+Status code:400
+
+Date: Thu, 12 Nov 2020 20:21:55 GMT
+Content-Type: application/json
+Content-Length: 59
+Connection: keep-alive
+Set-Cookie: __cfduid=d95b698903cf934a0b9fe2feb04d1c2671605212515; expires=Sat, 12-Dec-20 20:21:55 GMT; path=/; domain=.ratesapi.io; HttpOnly; SameSite=Lax
+access-control-allow-methods: GET
+access-control-allow-credentials: true
+access-control-allow-origin: *
+CF-Cache-Status: BYPASS
+cf-request-id: 065fb8431f0000e920b11fe000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=DcSnBLYM%2BpvXVcY48ddU6D759dacHV4gjFbocjoiostNcqpO6Y2ZN2Cn5hX6MjGtYtsAkq2lvrP1OxgAlQK19SZjiYFrVJqIXwrGUxFZ%2BwI%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"report_to":"cf-nel","max_age":604800}
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 5f12f64b68e4e920-MRS
+
+{"error":"Symbols 'GsBP' are invalid for date 2020-11-12."}
+
+root - INFO - Running the get query https://api.ratesapi.io/api/latest with params {'symbols': u'UwrSD', 'base': u'EUdR'}
+root - INFO - 
+-----------Request----------->
+GET https://api.ratesapi.io/api/latest?symbols=UwrSD&base=EUdR
+
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+Accept: */*
+User-Agent: python-requests/2.25.0
+Content-Type: application/json
+
+None
+
+root - INFO - 
+<-----------Response-----------
+Status code:400
+
+Date: Thu, 12 Nov 2020 20:21:55 GMT
+Content-Type: application/json
+Content-Length: 41
+Connection: keep-alive
+Set-Cookie: __cfduid=d5f6c062369774fd14be26228137fa1731605212515; expires=Sat, 12-Dec-20 20:21:55 GMT; path=/; domain=.ratesapi.io; HttpOnly; SameSite=Lax
+access-control-allow-methods: GET
+access-control-allow-credentials: true
+access-control-allow-origin: *
+CF-Cache-Status: BYPASS
+cf-request-id: 065fb8455300000fceda0d1000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=MPhgFAd4gS7DEjC3PhDdwv73fYdXUu9sdTDg4Pmk1zNS14UDtDbxkVusYrOCvJnaQEKKLEYC1cGWLaIaiHKVXefEaehcW10Z5crRRmq0HiA%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"report_to":"cf-nel","max_age":604800}
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 5f12f64eeaf00fce-MRS
+
+{"error":"Base 'EUdR' is not supported."}
+
+root - INFO - Running the get query https://api.ratesapi.io/api/latest with params {'symbols': u'IwLS', 'base': u'EdsUR'}
+root - INFO - 
+-----------Request----------->
+GET https://api.ratesapi.io/api/latest?symbols=IwLS&base=EdsUR
+
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+Accept: */*
+User-Agent: python-requests/2.25.0
+Content-Type: application/json
+
+None
+
+root - INFO - 
+<-----------Response-----------
+Status code:400
+
+Date: Thu, 12 Nov 2020 20:21:56 GMT
+Content-Type: application/json
+Content-Length: 42
+Connection: keep-alive
+Set-Cookie: __cfduid=dcdddf34e832565efd45d5a358ceacd201605212516; expires=Sat, 12-Dec-20 20:21:56 GMT; path=/; domain=.ratesapi.io; HttpOnly; SameSite=Lax
+Access-Control-Allow-Methods: GET
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CF-Cache-Status: BYPASS
+cf-request-id: 065fb8483900000e2a671c8000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=YufYHg7444FS8EKsug6YZN78%2F8ehKCBlStm30noWrelSA6Ge2v4qvhJeO1qUoMIx8G%2B2w%2FILo5yT%2BegqovHnIoAeGYu1PsW%2BQkgyee1emjk%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"report_to":"cf-nel","max_age":604800}
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 5f12f6538b780e2a-MXP
+
+{"error":"Base 'EdsUR' is not supported."}
+

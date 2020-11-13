@@ -1,0 +1,84 @@
+{
+    "test_latest_data": [{
+        "symbols": "GBP",
+        "base": "USD",
+        "expected_value": 0.7613009923
+    },
+        {
+        "symbols": "USD",
+        "base": "EUR",
+        "expected_value": 1.1791
+    },
+        {
+        "symbols": "ILS",
+        "base": "EUR",
+        "expected_value": 3.9847
+       }
+    ],
+
+     "test_timestamp_data": [{
+        "date": "2010-01-12",
+        "symbols": "GBP",
+        "base": "USD",
+        "expected_value": 0.6195704717
+    },
+        {
+        "date": "2009-01-12",
+        "symbols": "USD",
+        "base": "EUR",
+        "expected_value": 1.3394
+    },
+        {
+          "date": "2004-01-12",
+        "symbols": "USD",
+        "base": "EUR",
+        "expected_value": 1.2828
+       }
+    ],
+
+     "test_negative_scenarios_latest_data": [{
+        "symbols": "GsBP",
+        "base": "USD",
+        "expected_error": "Symbols 'GsBP' are invalid"
+    },
+        {
+        "symbols": "UwrSD",
+        "base": "EUdR",
+        "expected_error": "Base 'EUdR' is not supported."
+    },
+        {
+        "symbols": "IwLS",
+        "base": "EdsUR",
+        "expected_error": "Base 'EdsUR' is not supported."
+       },
+     {
+        "symbols": "Iw/@!LS",
+        "base": "Iw/@!LS",
+        "expected_error": "Base 'Iw/@!LS' is not supported."
+       }
+    ],
+  "test_negative_scenarios_timestamp_data": [{
+        "date": "2004-01-12",
+        "symbols": "ILS",
+        "base": "USD",
+        "expected_error": "Symbols 'ILS' are invalid for date 2004-01-12."
+    },
+        {
+        "date": "200-21-22",
+        "symbols": "UwrSD",
+        "base": "EUdR",
+        "expected_error": "time data '200-21-22' does not match format '%Y-%m-%d'"
+    },
+        {
+        "date": "2004-01-12",
+        "symbols": "IwLS",
+        "base": "EdsUR",
+        "expected_error": "Base 'EdsUR' is not supported."
+       },
+     {
+        "symbols": "Iw/@!LS",
+        "base": "Iw/@!LS",
+        "expected_error": "Base 'Iw/@!LS' is not supported."
+       }
+    ]
+}
