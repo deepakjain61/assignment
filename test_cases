@@ -1,0 +1,55 @@
+Basic positive tests (happy paths)
+1. Check if the correct value is obtained for correct value of symbol and base while using the latest data api.
+2. Check if the correct value is obtained for correct value of symbol and base while using the timestamp data api.
+3. As mentioned date can be passed from 1900 AD to current date. Check for boundary value date values.
+4. Verify the output when symbol and bases is passed as None in the latest data api.
+5. Verify the output when date is passed as None in the timestamp data api.
+6. Validate payload.
+7. Validate state: For GET requests, verify there is NO STATE CHANGE in the system.
+8. Verification of code status:
+   200 OK
+   400 Bad Request
+   500 Internal Server Error
+   etc
+9. Verify response time of api calls varies considerably.
+10. Validate headers:	Verify that HTTP headers are as expected.
+11. Positive + optional parameters: Execute API call with valid required parameters AND valid optional parameters.
+
+Negative:
+1. Try with correct value of symbol and non existent value of bases and check if proper error is displayed.
+2. Try with correct value of base and non existent value of symbol and check if proper error is displayed.
+3. Try with non existent value of base and non existent value of symbol and check if proper error is displayed.
+4. Check with date passed in incorrect format and verify if the error is handled.
+5. Pass the future date and check if the error is handled.
+
+Performance sanity:
+1. Check API response time, latency.
+2. Try to run thousand queries per second and check the performance.
+
+
+Destructive testing:
+Intentionally attempt to fail the API to check its robustness:
+1. Malformed content in request.
+2. Wrong content-type in payload
+3. Content with wrong structure.
+4. Overflow payload – huge JSON in request body.
+5. Boundary value testing
+6. Empty payload.
+7. Using incorrect HTTP headers (e.g. Content-Type).
+
+Security and Authorization:
+1. Check that the API is designed according to correct security principles.
+2. Role Permissions: ensure that specific endpoints are exposed to user based on role.
+3. Protocol: check HTTP/HTTPS according to spec
+4. Data leaks: ensure that internal data representations that are desired to stay
+    internal do not leak outside to the public API in the response payloads.
+5. Rate limiting, throttling, and access control policies
+
+Load Tests (positive), Stress Tests (negative):
+1. Find capacity limit points and ensure the system performs as expected under load, and fails gracefully under stress.
+
+Usability Tests:
+1. A good documentation of public apis to ensure the usability of the API for users
+ without prior knowledge of our system.
+
+
